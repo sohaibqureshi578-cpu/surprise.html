@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Beautiful Engagement ❤️</title>
+
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Georgia', serif;
+	background: #100711;
+	color: white;
+	overflow-x: hidden;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 17px;
+	background: rgba(15,5,15,.85);
+	backdrop-filter: blur(12px);
+	text-align: center;
+	z-index: 1000;
+}
+
+nav a {
+	color: #ffc5dc;
+	text-decoration: none;
+	margin: 0 12px;
+	font-size: 13px;
+}
+
+section {
+	min-height: 100vh;
+	padding: 110px 8% 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+}
+
+.hero {
+	background:
+	linear-gradient(rgba(15,0,15,.55),rgba(15,0,15,.8)),
+	url('background.jpg') center/cover;
+}
+
+h1 {
+	font-size: clamp(38px,7vw,75px);
+	color: #ffb5d2;
+	margin-bottom: 25px;
+	text-shadow: 0 0 25px #ff398a;
+}
+
+h2 {
+	font-size: clamp(30px,5vw,48px);
+	color: #ffb5d2;
+	margin-bottom: 30px;
+}
+
+p {
+	max-width: 750px;
+	line-height: 2;
+	font-size: 18px;
+	color: #f6dce9;
+	margin-bottom: 25px;
+}
+
+.heart {
+	font-size: 65px;
+	animation: heartbeat 1.5s infinite;
+}
+
+@keyframes heartbeat {
+	50% { transform: scale(1.25); }
+}
+
+.btn {
+	display: inline-block;
+	padding: 14px 30px;
+	background: #e83e83;
+	color: white;
+	text-decoration: none;
+	border-radius: 30px;
+	margin: 15px;
+	box-shadow: 0 0 20px #e83e83;
+	transition: .3s;
+}
+
+.btn:hover {
+	background: #ff80b5;
+	transform: scale(1.08);
+}
+
+.dark {
+	background: linear-gradient(135deg,#180b1c,#351126,#170817);
+}
+
+.pink {
+	background: linear-gradient(135deg,#3a1029,#170b1c,#40152d);
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 25px;
+	margin-top: 30px;
+}
+
+.card {
+	width: 280px;
+	padding: 15px;
+	background: rgba(255,255,255,.07);
+	border: 1px solid rgba(255,160,200,.3);
+	border-radius: 20px;
+	box-shadow: 0 0 25px rgba(255,50,130,.15);
+}
+
+.card img, video {
+	width: 100%;
+	height: 270px;
+	object-fit: cover;
+	border-radius: 15px;
+}
+
+video {
+	height: auto;
+	max-height: 400px;
+	background: #000;
+}
+
+.promise {
+	max-width: 650px;
+	padding: 20px;
+	margin: 10px;
+	background: rgba(255,255,255,.07);
+	border-radius: 15px;
+	border-left: 3px solid #ff72a8;
+}
+
+footer {
+	padding: 35px;
+	text-align: center;
+	background: #0a040c;
+	color: #ffb5d2;
+}
+
+@media(max-width:600px) {
+	nav a {
+		margin: 0 5px;
+		font-size: 10px;
+	}
+
+	p {
+		font-size: 16px;
+	}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">Her</a>
+<a href="#feelings">Feelings</a>
+<a href="#memories">Photos</a>
+<a href="#videos">Videos</a>
+<a href="#song">Song</a>
+<a href="#promises">Promises</a>
+<a href="#end">Forever</a>
+</nav>
+
+<section class="hero" id="home">
+<div class="heart">❤️</div>
+<h1>Our Beautiful Engagement</h1>
+<h2>Two Hearts, One Beautiful Story</h2>
+<p>Some stories are written by destiny. And I believe our story is one of the most beautiful stories ever written.</p>
+<p>A special website dedicated to the most special girl in my life.</p>
+<a href="#about" class="btn">Start Our Story ❤️</a>
+</section>
+
+<section class="dark" id="about">
+<h2>About My Special Girl 🌹</h2>
+<p>You are not just a beautiful person. You are a beautiful soul with a heart full of kindness, innocence and love.</p>
+<p>Your smile makes ordinary moments special. Your presence brings happiness. And your personality makes you different from everyone else.</p>
+<p>I feel lucky that destiny brought you into my life. You are someone I want to know more every single day.</p>
+<div class="heart">💗</div>
+</section>
+
+<section class="pink" id="feelings">
+<h2>My Feelings For You ❤️</h2>
+<p>I don't know how to explain everything I feel, but I know one thing: you have become a very special part of my life.</p>
+<p>Whenever I think about our future, I imagine happiness, respect, understanding and countless beautiful memories together.</p>
+<p>I don't promise a perfect life, but I promise to keep trying to make our journey beautiful.</p>
+<div class="heart">💕</div>
+</section>
+
+<section class="dark" id="memories">
+<h2>Our Beautiful Memories 📸</h2>
+<p>Every picture tells a story. Here are some special moments that deserve a permanent place in our hearts.</p>
+<div class="cards">
+<div class="card">
+<img src="photo1.jpg" alt="Our memory 1">
+<p>Beautiful Memory ❤️</p>
+</div>
+<div class="card">
+<img src="photo2.jpg" alt="Our memory 2">
+<p>A Special Moment 🌹</p>
+</div>
+<div class="card">
+<img src="photo3.jpg" alt="Our memory 3">
+<p>Forever Precious 💗</p>
+</div>
+</div>
+</section>
+
+<section class="pink" id="videos">
+<h2>Our Special Moments 🎬</h2>
+<p>Some moments are too beautiful to be described in words. Let's keep them alive through these videos.</p>
+<div class="cards">
+<div class="card">
+<video controls>
+<source src="video1.mp4" type="video/mp4">
+</video>
+<p>Special Video One ❤️</p>
+</div>
+<div class="card">
+<video controls>
+<source src="video2.mp4" type="video/mp4">
+</video>
+<p>Special Video Two 💕</p>
+</div>
+</div>
+</section>
+
+<section class="dark" id="song">
+<h2>A Song For You 🎵</h2>
+<div class="heart">🎶</div>
+<p>Some feelings cannot be expressed in words. So this song is dedicated to you.</p>
+<audio controls>
+<source src="song.mp3" type="audio/mpeg">
+Your browser does not support audio.
+</audio>
+<p style="margin-top:30px">Whenever you listen to this song, remember that someone dedicated it to you with love. ❤️</p>
+</section>
+
+<section class="pink" id="promises">
+<h2>My Promises To You 💍</h2>
+<div class="promise">❤️ I promise to always respect you.</div>
+<div class="promise">🌹 I promise to listen and understand you.</div>
+<div class="promise">💕 I promise to support your dreams.</div>
+<div class="promise">✨ I promise to value every moment with you.</div>
+<div class="promise">💍 I promise to keep building a beautiful future together.</div>
+</section>
+
+<section class="hero" id="end">
+<div class="heart">💍</div>
+<h1>Forever &amp; Always</h1>
+<h2>My Beautiful Eshmal ❤️</h2>
+<p>Among millions of people, our paths crossed for a reason.</p>
+<p>I hope our engagement is just the beginning of a lifetime filled with happiness, respect, laughter and unforgettable memories.</p>
+<p>Thank you for being such a special part of my story.</p>
+<h2>With Love, Your Future Partner ❤️</h2>
+<div class="heart">❤️</div>
+<a href="#home" class="btn">Read Our Story Again</a>
+</section>
+
+<footer>Made With Love ❤️ | Our Beautiful Engagement</footer>
+
+</body>
+</html>
